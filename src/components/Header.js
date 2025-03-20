@@ -19,7 +19,7 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="/home">Home</a></li>
 
             {/* Categories Dropdown */}
             <li className="nav-item dropdown">
@@ -34,10 +34,10 @@ const Header = () => {
                 Categories
               </a>
               <ul className="dropdown-menu" aria-labelledby="categoriesDropdown">
-                <li><a className="dropdown-item" href="/category/cups">Cups</a></li>
-                <li><a className="dropdown-item" href="/category/mugs">Mugs</a></li>
-                <li><a className="dropdown-item" href="/category/tshirts">T-Shirts</a></li>
-                <li><a className="dropdown-item" href="/category/hoodies">Hoodies</a></li>
+                <li><a className="dropdown-item" href="/">Cups</a></li>
+                <li><a className="dropdown-item" href="/">Mugs</a></li>
+                <li><a className="dropdown-item" href="/">T-Shirts</a></li>
+                <li><a className="dropdown-item" href="/">Hoodies</a></li>
               </ul>
             </li>
 
@@ -71,7 +71,7 @@ const Header = () => {
                 {cartCount}
               </span>
             </a>
-            <a href="/profile" className="text-dark"><FaUser size={20} /></a>
+            <a href="/" className="text-dark"><FaUser size={20} /></a>
           </div>
         </div>
       </div>
